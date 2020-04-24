@@ -1,0 +1,21 @@
+{
+    "name": "embedded-development-pack",
+    "publisher": "mischelebuha",
+    "displayName": "CMake Extension Pack",
+    "description": "Collection of essential extensions for productive development with cmake",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mischelebuha/cmake-extension-pack"
+      },
+    "extensionPack": [
+        "twxs.cmake",
+        "ms-vscode.cmake-tools"
+    ]
+}
